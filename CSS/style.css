@@ -110,34 +110,170 @@ footer {
   width: 200px;
 }
 
+.contenedor-grid {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 60px;
+}
+
+.cuadros {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  grid-area: cuadro;
+}
+
+.cuadros-card {
+  border-radius: 10px;
+  min-height: 200px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../imagenes/galaxy_ss.jpg);
+}
+.cuadros-card:hover {
+  box-shadow: #5e3ac9;
+  border-radius: 6px;
+  cursor: default;
+  transform: translateY(-3%);
+}
+
+.cuadros-card2 {
+  border-radius: 10px;
+  min-height: 200px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../imagenes/galaxy_a.jpg);
+}
+.cuadros-card2:hover {
+  box-shadow: #5e3ac9;
+  border-radius: 6px;
+  cursor: default;
+  transform: translateY(-3%);
+}
+
+.texto {
+  position: absolute;
+  top: 29%;
+  left: 60px;
+}
+.texto h3 {
+  font-weight: bold;
+}
+.texto h4 {
+  position: absolute;
+  top: 60%;
+  left: 0px;
+}
+
+.texto4 {
+  position: absolute;
+  top: 29%;
+  left: 290px;
+}
+.texto4 h3 {
+  font-weight: bold;
+}
+.texto4 h4 {
+  position: absolute;
+  top: 60%;
+  left: 0px;
+}
+
+.cuadros-card3 {
+  border-radius: 10px;
+  min-height: 200px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../imagenes/j.jpg);
+}
+.cuadros-card3:hover {
+  box-shadow: #5e3ac9;
+  border-radius: 6px;
+  cursor: default;
+  transform: translateY(-3%);
+}
+
+.cuadros-card4 {
+  border-radius: 10px;
+  min-height: 200px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../imagenes/Glaxyzzz.jpg);
+}
+.cuadros-card4:hover {
+  box-shadow: #5e3ac9;
+  border-radius: 6px;
+  cursor: default;
+  transform: translateY(-3%);
+}
+
+.cuadros-card:hover {
+  box-shadow: #5e3ac9;
+  border-radius: 6px;
+  cursor: default;
+  transform: translateY(-3%);
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
 
-.smart_P {
+.info {
   position: relative;
-  display: block;
-  text-align: center;
+  display: inline-block;
 }
 
-.smart_p1 {
-  text-transform: capitalize;
-  font-size: 4.5rem;
-  font-weight: 400;
+.info_p2 {
+  position: absolute;
+  top: 29%;
+  left: 60px;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.info_p3 {
+  position: absolute;
+  top: 41%;
+  left: 60px;
+  font-size: 60px;
+}
+
+.smart_P {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
 }
 
 .smart_p2 {
-  font-weight: 700;
   position: absolute;
-  top: 35%;
-  left: 30px;
+  top: 29%;
+  left: 60px;
+  font-weight: bold;
+  font-size: 60px;
 }
 
 .smart_p3 {
   position: absolute;
-  top: 55%;
-  left: 35px;
-  font-size: 1.4rem;
+  top: 44%;
+  left: 60px;
+  font-size: 60px;
 }
 
 .card_imagen--samsung {
@@ -219,98 +355,6 @@ body {
   background-color: #5e3ac9;
 }
 
-.contenedor-grid {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
-  padding: 40px 0;
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  gap: 60px;
-}
-
-.cuadros {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  grid-area: cuadro;
-}
-
-.cuadros-card {
-  border-radius: 10px;
-  min-height: 200px;
-  font-weight: bold;
-  padding: 20px;
-  position: relative;
-  background-size: cover;
-  background-position: center center;
-  background-image: url(../imagenes/galaxy_ss.jpg);
-}
-.cuadros-card:hover {
-  box-shadow: #5e3ac9;
-  border-radius: 6px;
-  cursor: default;
-  transform: translateY(-3%);
-}
-
-.cuadros-card2 {
-  border-radius: 10px;
-  min-height: 200px;
-  font-weight: bold;
-  padding: 20px;
-  position: relative;
-  background-size: cover;
-  background-position: center center;
-  background-image: url(../imagenes/galaxy_a.jpg);
-}
-.cuadros-card2:hover {
-  box-shadow: #5e3ac9;
-  border-radius: 6px;
-  cursor: default;
-  transform: translateY(-3%);
-}
-
-.cuadros-card3 {
-  border-radius: 10px;
-  min-height: 200px;
-  font-weight: bold;
-  padding: 20px;
-  position: relative;
-  background-size: cover;
-  background-position: center center;
-  background-image: url(../imagenes/j.jpg);
-}
-.cuadros-card3:hover {
-  box-shadow: #5e3ac9;
-  border-radius: 6px;
-  cursor: default;
-  transform: translateY(-3%);
-}
-
-.cuadros-card4 {
-  border-radius: 10px;
-  min-height: 200px;
-  font-weight: bold;
-  padding: 20px;
-  position: relative;
-  background-size: cover;
-  background-position: center center;
-  background-image: url(../imagenes/Glaxyzzz.jpg);
-}
-.cuadros-card4:hover {
-  box-shadow: #5e3ac9;
-  border-radius: 6px;
-  cursor: default;
-  transform: translateY(-3%);
-}
-
-.cuadros-card:hover {
-  box-shadow: #5e3ac9;
-  border-radius: 6px;
-  cursor: default;
-  transform: translateY(-3%);
-}
-
 @media (max-width: 728px) {
   .muestra {
     flex-direction: column;
@@ -332,6 +376,45 @@ body {
   }
   .cuadros {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .texto4 {
+    position: absolute;
+    top: 29%;
+    left: 220px;
+  }
+  .texto4 h3 {
+    font-weight: bold;
+  }
+  .texto4 h4 {
+    position: absolute;
+    top: 60%;
+    left: 0px;
+  }
+  .texto {
+    position: absolute;
+    top: 29%;
+    left: 40px;
+  }
+  .texto h3 {
+    font-weight: bold;
+  }
+  .texto h4 {
+    position: absolute;
+    top: 60%;
+    left: 0px;
+  }
+  .info_p2 {
+    position: absolute;
+    top: 35%;
+    left: 40px;
+    font-weight: bold;
+    font-size: smaller;
+  }
+  .info_p3 {
+    position: absolute;
+    top: 48%;
+    left: 40px;
+    font-size: smaller;
   }
 }
 

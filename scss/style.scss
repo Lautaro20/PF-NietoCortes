@@ -3,34 +3,55 @@
 @import "footer";
 @import "variables";
 @import "celulares";
+@import "cuadros";
 
 body {
     font-family: "Montserrat", sans-serif;
   }
 
+  .info{
+    position: relative;
+    display: inline-block;
+    
+  }
+  .info_p2{
+    position: absolute;
+    top: 29%;
+    left: 60px;
+    font-weight: bold;
+    font-size: 60px;
+  }
+
+  .info_p3{
+    position: absolute;
+    top: 41%;
+    left: 60px;
+    font-size: 60px;
+  }
+
+
  .smart_P {
     position: relative;
-    display: block;
-    text-align: center;
-  }
+    display: inline-block;
+    width: 100%;
+    height: auto;
+
+ }
+
   
-  .smart_p1 {
-    text-transform: capitalize;
-    font-size: 4.5rem;
-    font-weight: 400;
-  }
   .smart_p2 {
-    font-weight: 700;
     position: absolute;
-    top: 35%;
-    left: 30px;
+    top: 29%;
+    left: 60px;
+    font-weight: bold;
+    font-size: 60px;
   }
   
   .smart_p3 {
     position: absolute;
-    top: 55%;
-    left: 35px;
-    font-size: 1.4rem;
+    top: 44%;
+    left: 60px;
+    font-size: 60px;
   }
   
   .card_imagen--samsung {
@@ -109,112 +130,5 @@ body {
     background-color: $color-con-pagina;
   }
 
-  .contenedor-grid {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 40px 0;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    gap: 60px;
-  }
-  
-  .cuadros {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    grid-area: cuadro;
-  }
-  
-  .cuadros-card {
-    border-radius: 10px;
-    min-height: 200px;
-    font-weight: bold;
-    padding: 20px;
-    position: relative;
-  
-    background-size: cover;
-    background-position: center center;
-  
-    background-image: url(../imagenes/galaxy_ss.jpg);
-
-    &:hover{
-        box-shadow: $color-con-pagina;
-  
-        border-radius: 6px;
-        cursor: default;
-        transform: translateY(-3%);
-    }
-
-  }
-  .cuadros-card2 {
-    border-radius: 10px;
-    min-height: 200px;
-    font-weight: bold;
-    padding: 20px;
-    position: relative;
-  
-    background-size: cover;
-    background-position: center center;
-    background-image: url(../imagenes/galaxy_a.jpg);
-
-    &:hover{
-        box-shadow: $color-con-pagina;
-  
-        border-radius: 6px;
-        cursor: default;
-        transform: translateY(-3%);
-    }
-
-  }
-  
-  .cuadros-card3 {
-    border-radius: 10px;
-    min-height: 200px;
-    font-weight: bold;
-    padding: 20px;
-    position: relative;
-  
-    background-size: cover;
-    background-position: center center;
-    background-image: url(../imagenes/j.jpg);
-
-    &:hover{
-        box-shadow: #5e3ac9;
-  
-        border-radius: 6px;
-        cursor: default;
-        transform: translateY(-3%);
-    }
-
-  }
-  
-  .cuadros-card4 {
-    border-radius: 10px;
-    min-height: 200px;
-    font-weight: bold;
-    padding: 20px;
-    position: relative;
-  
-    background-size: cover;
-    background-position: center center;
-    background-image: url(../imagenes/Glaxyzzz.jpg);
-
-    &:hover{
-        box-shadow: #5e3ac9;
-  
-        border-radius: 6px;
-        cursor: default;
-        transform: translateY(-3%);
-    }
-  }
-
-  .cuadros-card:hover {
-    box-shadow: $color-con-pagina;
-  
-    border-radius: 6px;
-    cursor: default;
-    transform: translateY(-3%);
-  }
 
   @import "mediaquieres"

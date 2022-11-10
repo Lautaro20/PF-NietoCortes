@@ -20,4 +20,49 @@
     .cuadros {
       grid-template-columns: repeat(1, 1fr);
     }
+    .texto4{
+      position: absolute;
+      top: 29%;
+      left: 220px;
+  
+      & h3{
+        font-weight: bold;
+      }
+  
+      & h4{
+        position: absolute;
+        top: 60%;
+        left: 0px;
+      }
+    } 
+    .texto{
+      position: absolute;
+      top: 29%;
+      left: 40px;
+  
+      & h3{
+        font-weight: bold;
+      }
+  
+      & h4{
+        position: absolute;
+        top: 60%;
+        left: 0px;
+      }
+  
+    }
+    .info_p2{
+      position: absolute;
+      top: 35%;
+      left: 40px;
+      font-weight: bold;
+      font-size: smaller;
+    }
+  
+    .info_p3{
+      position: absolute;
+      top: 48%;
+      left: 40px;
+      font-size: smaller;
+    }
   }
