@@ -1,0 +1,20 @@
+{
+  "name": "entrega-pc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "copile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lautaro20/Pre-Entrega3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lautaro20/Pre-Entrega3/issues"
+  },
+  "homepage": "https://github.com/Lautaro20/Pre-Entrega3#readme"
+}

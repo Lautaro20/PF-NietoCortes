@@ -1,20 +1,8 @@
-*¨ {
+@charset "UTF-8";
+* ¨ {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-}
-
-img {
-  max-width: 100%;
-}
-
-img,
-svg {
-  vertical-align: middle;
 }
 
 header {
@@ -48,50 +36,10 @@ header {
   text-transform: uppercase;
   text-decoration: none;
 }
-
 .nav__link:hover {
   color: white;
   background-color: #7c54f4;
   border-radius: 20px;
-}
-
-.info {
-  position: relative;
-  display: block;
-  text-align: center;
-  margin: auto;
-  width: 100%;
-}
-
-.info_p {
-  text-transform: capitalize;
-  font-size: 4.5rem;
-  font-weight: 400;
-  position: relative;
-}
-
-.info_p2 {
-  font-weight: 700;
-  position: absolute;
-  top: 35%;
-  left: 30px;
-}
-/* CAMBIAR MAS ADELANTE */
-.info_p3 {
-  position: absolute;
-  top: 50%;
-  left: 30px;
-  font-size: 1.4rem;
-}
-
-.product_N {
-  text-align: center;
-  color: white;
-  background-color: #7c54f4;
-}
-
-.product_1 {
-  text-align: center;
 }
 
 footer {
@@ -103,12 +51,8 @@ footer {
   color: white;
   text-align: center;
 }
-
 .footer_redes a {
   color: white;
-}
-
-.footer_redes a {
   font-size: 1.2rem;
   margin: 10px;
 }
@@ -116,8 +60,6 @@ footer {
 .footer_icons {
   text-align: center;
 }
-
-/* Celulares */
 
 .Titulo_cel {
   text-align: center;
@@ -133,10 +75,8 @@ footer {
   box-shadow: #7c54f4;
   background-color: white;
 }
-
 .card:hover {
   box-shadow: #5e3ac9;
-
   border-radius: 6px;
   cursor: default;
   transform: translateY(-3%);
@@ -149,7 +89,6 @@ footer {
   border: none;
   padding: 10px;
 }
-
 .card_buttom:hover {
   background-color: white;
   border-radius: 25px;
@@ -166,11 +105,15 @@ footer {
 .card_imagen--iphone {
   width: 128px;
 }
+
 .card_imagen {
   width: 200px;
 }
 
-/* Smartv */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .smart_P {
   position: relative;
   display: block;
@@ -182,6 +125,7 @@ footer {
   font-size: 4.5rem;
   font-weight: 400;
 }
+
 .smart_p2 {
   font-weight: 700;
   position: absolute;
@@ -199,22 +143,24 @@ footer {
 .card_imagen--samsung {
   width: 200px;
 }
+
 .card_imagen--mototv {
   width: 200px;
 }
 
-/* FAQ*/
 .dudasyrespuestas {
   width: 400px;
   margin: auto;
   padding: 40px;
 }
+
 .dudas {
   background-color: #7c54f4;
   display: inline-block;
   text-align: center;
   margin-top: 50px;
 }
+
 .dudas p {
   background-color: #5e3ac9;
   padding: 10px;
@@ -263,13 +209,12 @@ footer {
   background-color: white;
 }
 
-/*preguntas*/
-
 .formulario {
   background-color: #7c54f4;
   color: #212121;
   margin: 1rem;
 }
+
 .form {
   background-color: #5e3ac9;
 }
@@ -297,22 +242,32 @@ footer {
   font-weight: bold;
   padding: 20px;
   position: relative;
-
   background-size: cover;
   background-position: center center;
-
   background-image: url(../imagenes/galaxy_ss.jpg);
 }
+.cuadros-card:hover {
+  box-shadow: #5e3ac9;
+  border-radius: 6px;
+  cursor: default;
+  transform: translateY(-3%);
+}
+
 .cuadros-card2 {
   border-radius: 10px;
   min-height: 200px;
   font-weight: bold;
   padding: 20px;
   position: relative;
-
   background-size: cover;
   background-position: center center;
   background-image: url(../imagenes/galaxy_a.jpg);
+}
+.cuadros-card2:hover {
+  box-shadow: #5e3ac9;
+  border-radius: 6px;
+  cursor: default;
+  transform: translateY(-3%);
 }
 
 .cuadros-card3 {
@@ -321,10 +276,15 @@ footer {
   font-weight: bold;
   padding: 20px;
   position: relative;
-
   background-size: cover;
   background-position: center center;
   background-image: url(../imagenes/j.jpg);
+}
+.cuadros-card3:hover {
+  box-shadow: #5e3ac9;
+  border-radius: 6px;
+  cursor: default;
+  transform: translateY(-3%);
 }
 
 .cuadros-card4 {
@@ -333,35 +293,19 @@ footer {
   font-weight: bold;
   padding: 20px;
   position: relative;
-
   background-size: cover;
   background-position: center center;
   background-image: url(../imagenes/Glaxyzzz.jpg);
 }
 .cuadros-card4:hover {
   box-shadow: #5e3ac9;
-
   border-radius: 6px;
   cursor: default;
   transform: translateY(-3%);
 }
-.cuadros-card3:hover {
-  box-shadow: #5e3ac9;
 
-  border-radius: 6px;
-  cursor: default;
-  transform: translateY(-3%);
-}
-.cuadros-card2:hover {
-  box-shadow: #5e3ac9;
-
-  border-radius: 6px;
-  cursor: default;
-  transform: translateY(-3%);
-}
 .cuadros-card:hover {
   box-shadow: #5e3ac9;
-
   border-radius: 6px;
   cursor: default;
   transform: translateY(-3%);
@@ -390,3 +334,5 @@ footer {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+/*# sourceMappingURL=style.css.map */

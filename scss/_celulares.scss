@@ -1,0 +1,53 @@
+.Titulo_cel {
+    text-align: center;
+    color: white;
+    background-color: $color-pagina;
+  }
+  
+  .card {
+    text-align: center;
+    margin: 1rem;
+    max-width: 300px;
+    padding: 1rem;
+    box-shadow: $color-pagina;
+    background-color: white;
+
+    &:hover{
+        box-shadow: $color-con-pagina;
+  
+        border-radius: 6px;
+        cursor: default;
+        transform: translateY(-3%);
+    }
+
+  }
+  
+  
+  .card_buttom {
+    background-color: $color-pagina;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+
+    &:hover{
+        background-color: white;
+        border-radius: 25px;
+        border-style: solid;
+        border-color: $color-pagina;
+        color: $color-pagina;
+        padding: 7px;
+    }
+
+  }
+  
+  .card_imagen--moto {
+    width: 200px;
+  }
+  
+  .card_imagen--iphone {
+    width: 128px;
+  }
+  .card_imagen {
+    width: 200px;
+  }

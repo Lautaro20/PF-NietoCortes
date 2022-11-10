@@ -1,0 +1,22 @@
+footer {
+    background-color: black;
+  }
+  
+  .footer_redes {
+    background-color: #212121;
+    color: white;
+    text-align: center;
+
+    & a {
+        color: white;
+        font-size: 1.2rem;
+        margin: 10px;
+    }
+
+  }
+  
+ 
+  
+  .footer_icons {
+    text-align: center;
+  }
