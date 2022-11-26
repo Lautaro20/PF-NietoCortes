@@ -9,14 +9,12 @@
       position: relative;
     }
     .container-fluid {
-      flex-direction: column;
+      flex-direction: row;
       max-width: max-content;
       justify-content: start;
+      min-width: 100%;
     }
-    .nav__list {
-      flex-direction: column;
-      justify-content: start;
-    }
+
     .cuadros {
       grid-template-columns: repeat(1, 1fr);
     }
@@ -62,6 +60,20 @@
     .info_p3{
       position: absolute;
       top: 48%;
+      left: 40px;
+      font-size: smaller;
+    }
+
+    .smart_p2{
+      position: absolute;
+      top: 35%;
+      left: 40px;
+      font-weight: bold;
+      font-size: smaller;
+    }
+    .smart_p3{
+      position: absolute;
+      top: 56%;
       left: 40px;
       font-size: smaller;
     }

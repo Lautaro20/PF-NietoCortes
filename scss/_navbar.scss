@@ -1,41 +1,15 @@
 @import "variables";
 
 header {
-    background-color: white;
+    background-color: $color-pagina;
     position: sticky;
     top: 0;
     z-index: 2;
-  }
-  
-  .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
   }
 
-.nav__list {
-    list-style: none;
-    font-weight: 600;
-    display: flex;
-  }
-  
-  .nav__item {
-    margin: 0 0 0 1.5rem;
-  }
-  
-  .nav__link {
-    padding: 10px;
-    margin: 10px;
-    display: inline-block;
-    color: black;
-    text-transform: uppercase;
-    text-decoration: none;
-
-    &:hover{
-        color: white;
-        background-color: $color-pagina;
-         border-radius: 20px;
-
-    }
+  .container-fluid{
+    background-color: $color-pagina;
+    border-radius: 10px;
   }
   

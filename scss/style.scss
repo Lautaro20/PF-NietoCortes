@@ -9,6 +9,11 @@ body {
     font-family: "Montserrat", sans-serif;
   }
 
+  .tvimagen{
+    max-width: 100%;
+    height: auto;
+  }
+
   .info{
     position: relative;
     display: inline-block;
@@ -49,7 +54,7 @@ body {
   
   .smart_p3 {
     position: absolute;
-    top: 44%;
+    top: 50%;
     left: 60px;
     font-size: 60px;
   }
